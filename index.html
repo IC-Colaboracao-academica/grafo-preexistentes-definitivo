@@ -76,7 +76,13 @@
     <span class="legend-item">
       <span class="legend-color-box" style="background-color: #0033ff;"></span> Sociologia
     </span>
-  </div>
+    <span class="legend-item">
+      <span class="legend-color-box" style="background-color: #000000;"></span> Técnico Administrativo
+    </span>
+    <span class="legend-item">
+      <span class="legend-color-box" style="background-color: #330099;"></span> Geografia
+    </span>
+    </div>
   <button id="toggleFilters" style="position: absolute; top: 65px; left: 470px; z-index: 1001; background: #007cba; color: white; border: none; padding: 8px 12px; border-radius: 3px; cursor: pointer; font-family: Arial, sans-serif;">
     🔍 Ocultar Filtros
   </button>
@@ -101,8 +107,10 @@
         <option value="#999933">Letras</option>
         <option value="#339966">Matemática</option>
         <option value="#00cc99">Pedagogia</option>
-        <option value="#0033ff">Sociologia</option>        
-      </select>
+        <option value="#0033ff">Sociologia</option>
+        <option value="#000000">Técnico Administrativo</option>
+        <option value="#330099">Geografia</option>
+        </select>
     </div>
     
     <div style="margin-bottom: 10px;">
@@ -430,7 +438,6 @@
       
       // Generate publications list HTML
       if (filteredPublications.length === 0) {
-        // *** MODIFICAÇÃO AQUI ***
         // Exibe a lista de motivos quando não há publicações diretas
         publicationsList.innerHTML = `
           <div style="padding: 10px; color: #333;">
@@ -446,7 +453,6 @@
             </ul>
           </div>
         `;
-        // *** FIM DA MODIFICAÇÃO ***
       } else {
         let html = `<p><strong>Encontradas ${filteredPublications.length} publicações:</strong></p><ul style="list-style-type: none; padding: 0;">`;
         
