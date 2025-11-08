@@ -7,7 +7,7 @@ const nodeList = [
 { name: "Ana Claudia Folha da Cruz", options: {size: 8.0, label: "Ana Claudia Folha da Cruz", type: "image", image: "public/Ana Claudia Folha da Cruz.jpg", color: '#000000', labelColor:  '#000000', comunidade: 7} },
 { name: "Tulio Francisco da Silva Bernardo", options: {size: 8.0, label: "Tulio Francisco da Silva Bernardo", type: "image", image: "public/Tulio Francisco da Silva Bernardo.jpg", color: '#000000', labelColor:  '#000000', comunidade: 7} },
 { name: "Lincon Lopes", options: {size: 11.313708498984761, label: "Lincon Lopes", type: "image", image: "public/Lincon Lopes.jpg", color: '#cc9999', labelColor:  '#cc9999', comunidade: 1} },
-{ name: "Hania Cecilia Pilan", options: {size: 11.313708498984761, label: "Hania Cecilia Pilan", type: "image", image: "public/Hania Cecilia Pilan.jpg", color: '#cc9999', labelColor:  '#000099', comunidade: 4} },
+{ name: "Hania Cecilia Pilan", options: {size: 11.313708498984761, label: "Hania Cecilia Pilan", type: "image", image: "public/Hania Cecilia Pilan.jpg", color: '#000099', labelColor:  '#000099', comunidade: 4} },
 { name: "Adriano Jose Ferruzzi", options: {size: 8.0, label: "Adriano Jose Ferruzzi", type: "image", image: "public/Adriano Jose Ferruzzi.jpg", color: '#ffccff', labelColor:  '#ffccff', comunidade: 5} },
 { name: "Luiz Roberto Albano Junior", options: {size: 8.0, label: "Luiz Roberto Albano Junior", type: "image", image: "public/Luiz Roberto Albano Junior.jpg", color: '#ffccff', labelColor:  '#ffccff', comunidade: 4} },
 { name: "Fernando Luis Rossi", options: {size: 16.0, label: "Fernando Luis Rossi", type: "image", image: "public/Fernando Luis Rossi.jpg", color: '#cc9999', labelColor:  '#cc9999', comunidade: 1} },
